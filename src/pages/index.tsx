@@ -1,9 +1,11 @@
 import * as React from "react";
 import {
+  Box,
   Button,
   ChakraProvider,
   Container,
   Flex,
+  Image,
   VStack,
   HStack,
   Text,
@@ -12,6 +14,7 @@ import {
 import App from "../components/app";
 import theme from "../theme";
 import "@fontsource/manrope";
+// import illustration from "../images/illustration.png";
 
 const IndexPage = () => {
   return (
@@ -43,6 +46,9 @@ const IndexPage = () => {
                 Get Early Access
               </Button>
             </HStack>
+            <Box boxSize="sm">
+              <Image src="https://bit.ly/dan-abramov" alt="Dan Abramov" />
+            </Box>
           </VStack>
         </Flex>
       </Container>
