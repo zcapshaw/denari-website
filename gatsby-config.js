@@ -22,6 +22,7 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    "@chakra-ui/gatsby-plugin",
     {
       resolve: "gatsby-plugin-eslint",
       options: {
